@@ -264,25 +264,45 @@ footer{
 }
 
 
+@media screen and (max-width: 768px){
 
-@media screen and (max-width: 980px){
+.headsetter, .container, .container_contact, .container_projects{
+	width: 700px
+}
+.container, .container_contact, .container_projects{
+	margin-left: 20px;
+}
 
-#motherofallcontainers{
-	width: 980px}
+#imagebox{
+	margin-left:40px;
+}
+.container2{
+	margin-left: 240px;
+	margin-top: 20px;
 
 }
 
-@media screen and (max-width: 768px){
-
-#motherofallcontainers{
-	width: 768px}
 
 }
 
 @media screen and (max-width: 640px){
 
-#motherofallcontainers{
-	width: 640px}
-
+.headsetter, .container, .container_contact, .container_projects{
+	width: 583px
+}
+.container, .container_contact, .container_projects{
+	margin-left: 20px;
 }
 
+#imagebox{
+	margin-left:70px;
+}
+.container2{
+ 	margin-left: 180px; 
+	margin-top: 20px;
+}
+h1{
+	font-size: 24px;
+}
+
+}
